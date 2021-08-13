@@ -19,7 +19,7 @@ app.use(
 )
 
 app.get('/', (req, res) => {
-  res.send('Hello to JWT and Google OAuth API')
+  res.send('Hello to JWT and Google OAuth API Modified')
 })
 
 app.use('/posts', postRoutes)
